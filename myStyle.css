@@ -1,6 +1,6 @@
 /* This is the External CSS stylesheet */
 html {
-    font-size: 12px;
+    font-size: 16px;
   }
 body {
     background-color: lightblue;
@@ -8,17 +8,25 @@ body {
   
 h1 {
 color: navy;
+text-decoration:solid;
 background-color: orange;
 margin-left: 1cm;
+margin-right: 1cm;
+margin-top: 1vh;
+margin-bottom: 2vh;
 }
 h2 {
 color: rgb(197, 93, 161);
-margin-top: 1vh;
+border-top: 2px dotted rebeccapurple;
+border-bottom: 1em double rgb(24, 163, 78);
 }
 p {
+text-align:left;
 color: #ffffff ;
+border-color: rebeccapurple;
+padding: .5em;
 }
-p {
+section {
 color: hsl(1,1,1);
 }
 .ems li {
@@ -26,4 +34,16 @@ color: hsl(1,1,1);
   }
 .rems li {
 font-size: 1.3rem;
+}
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0cm;
+  } 
+.box {
+background-color: #567895;
+border: 5px solid #0b385f;
+border-bottom-style: dashed;
+color: #fff;
+border-radius: 10px;
 }
