@@ -1,0 +1,18 @@
+/* This is the External CSS stylesheet */
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+color: navy;
+background-color: orange;
+}
+h2 {
+color: rgb(red, green, blue);
+}
+p {
+color: #ffffff ;
+}
+p {
+color: hsl(1,1,1);
+}
