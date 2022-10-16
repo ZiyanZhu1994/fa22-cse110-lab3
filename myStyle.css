@@ -1,4 +1,7 @@
 /* This is the External CSS stylesheet */
+html {
+    font-size: 12px;
+  }
 body {
     background-color: lightblue;
   }
@@ -6,13 +9,21 @@ body {
 h1 {
 color: navy;
 background-color: orange;
+margin-left: 1cm;
 }
 h2 {
-color: rgb(red, green, blue);
+color: rgb(197, 93, 161);
+margin-top: 1vh;
 }
 p {
 color: #ffffff ;
 }
 p {
 color: hsl(1,1,1);
+}
+.ems li {
+    font-size: 1.3em;
+  }
+.rems li {
+font-size: 1.3rem;
 }
