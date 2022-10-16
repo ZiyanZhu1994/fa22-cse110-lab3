@@ -4,13 +4,39 @@
     <link rel="stylesheet" href="myStyle.css">
     <title>Meeting Minutes Brainstorm</title>
     <meta name="author" content="Ziyan Zhu">
+    <style>
+      div.relative {
+        position: relative;
+        left: 30px;
+        border: 3px solid #73AD21;
+      }
+      div.static {
+      position: static;
+      border: 3px solid #73AD21;
+      }
+      /* mouse over link */
+      a.highlight:hover {
+        color: #ff0000;
+        font-size: 22px;
+      } 
+
+      /* selected link */
+      a:active {
+        background-color: blue;
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>
   </head>
   <body>
     <main>This is the main body </main>
     <footer>This is the footer part </footer>
     
     <nav>
-  <a href="/python/">Python</a>
+  <a class="highlight" href="/python/">Python</a>
   </nav>
     <h1>Attendance List</h1>
     <p>Ziyan Zhu</p> 
@@ -19,6 +45,14 @@
     <div class="box">
   <h2>This is another heading </h2>
 </div>
+<div class="div1">This is a div (width is 300px and height is 100px).</div>
+<div class="relative">
+  This div element has position: relative;
+  </div>
+  <div class="static">
+    This div element has position: static;
+    </div>
+
     <p>Nothing, <em>just</em> <b>relax</b></p> 
     
     <hr>
@@ -70,6 +104,19 @@ This is the test for textarea
   <option value="JustFoodForDogs">JustFoodForDogs</option>
 </select>
 <button type="button">Click Me!</button>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
+</div>
   </body>
 </html>
 
