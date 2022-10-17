@@ -6,7 +6,7 @@ body {
     background-color: lightblue;
   }
   
-h1 {
+h1,h3 {
 color: navy;
 text-decoration:solid;
 background-color: orange;
@@ -57,5 +57,20 @@ max-width: 500px;
 min-width: 10px;
 }
 .p1 {
-    font-family: "Times New Roman", Times, serif;
+font-family: "Times New Roman", Times, serif;
+}
+#relax {
+background-color: yellow;
+}
+h2 * {
+    background-color: greenyellow;
   }
+a[target] {
+background-color: bisque;
+}
+p ~ ul {
+background: #ff0000;
+}
+div + p {
+background-color: yellow;
+}
